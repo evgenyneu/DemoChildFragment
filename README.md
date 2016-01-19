@@ -2,6 +2,7 @@
 
 This is a demo Android app showing an issue with getting a fragment from another fragment in Android API version 19 and older using the following code.
 
+
 ```Java
 Fragment fragment = getChildFragmentManager().findFragmentById(R.id.child);
 ```
@@ -16,3 +17,6 @@ In order to get a child fragment on Android API 19 and older one can use the fol
 ```Java
 fragment = getActivity().getFragmentManager().findFragmentById(R.id.child);
 ```
+
+
+![Android run getChildFragmentManager on API 19](https://raw.githubusercontent.com/evgenyneu/DemoChildFragment/master/graphics/android_getChildFragmentManager_api_19.png)
