@@ -18,5 +18,4 @@ In order to get a child fragment on Android API 19 and older one can use the fol
 fragment = getActivity().getFragmentManager().findFragmentById(R.id.child);
 ```
 
-
-![Android run getChildFragmentManager on API 19](https://raw.githubusercontent.com/evgenyneu/DemoChildFragment/master/graphics/android_getChildFragmentManager_api_19.png)
+<img src="https://raw.githubusercontent.com/evgenyneu/DemoChildFragment/master/graphics/android_getChildFragmentManager_api_19.png" alt="Android run getChildFragmentManager on API 19" width="300" >
