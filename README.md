@@ -9,7 +9,7 @@ Fragment fragment = getChildFragmentManager().findFragmentById(R.id.child);
 
 The code above works only from API version 21 and newer. On API version 19 and older it returns null.
 
-## The workaround
+## A workaround
 
 In order to get a child fragment on Android API 19 and older one can use the following code instead.
 
